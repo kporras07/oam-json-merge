@@ -123,4 +123,4 @@ for (var index = 0; index < geometries.length; index++) {
   }
 }
 
-fs.writeFile('./result.json', JSON.stringify(worldData), 'utf-8');
+fs.writeFile('./result/result.json', JSON.stringify(worldData), 'utf-8');
